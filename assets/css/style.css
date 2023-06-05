@@ -1,0 +1,350 @@
+*{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* MARGIN  */
+.mx-100{
+   margin: auto 100px;
+}
+.my-100{
+   margin: auto 100px;
+}
+.my-50{
+   margin: auto 50px;
+}
+/* HEADER CODE  */
+header{
+   background-color:transparent;
+   padding: 40px;
+   border-bottom: 5px black;
+}
+header>nav>ul{
+   list-style: none;
+   float: right;
+
+}
+header>nav>h1{
+   color: #fff;
+   font-size: 30px;
+}
+header>nav>h1::first-letter{
+  color: orange;
+  font-size:50px;
+}
+header>nav>ul>li{
+   display: inline-block;
+   padding: 10px;
+}
+header>nav>ul>li>a{
+   color: #fff;
+   text-decoration: none;
+}
+header>nav>ul>li>a:hover{
+   color: orange;
+}
+/* FLEX  */
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.item{
+  flex: 1;
+}
+/* MARGIN  */   
+.mx-100{
+  margin: auto 0px;
+}
+.my-25{
+  margin: auto 0px;
+}
+.my-50{
+  margin: auto 0px;
+}
+.my-33{
+  margin: 0px auto;
+}
+/* BANNER  */
+.commonBanner{
+  background-image: url(../images/pexels-essow-936722.jpg);
+   height: 500px;
+   width: 100%;
+   text-align: center;
+   color: orange;
+   padding: 20px;
+}
+.commonBanner>.head>h1>span.vk{
+  color:teal;
+}
+.commonBanner>.head>h1>span.kv{
+  color:white;
+}
+.commonBanner>.head>p{
+  margin: 30px;
+  color: white;
+}
+.commonBanner>.head>button{
+  border: 3px black solid;
+  border-radius: 30px;
+  padding: 20px;
+}
+.commonBanner>.head>button:hover{
+  background-color: aqua;
+}
+
+/* PICTURES */
+.noti{
+  background:url(../images/pexels-pixabay-366283.jpg )  ;
+  margin:0px;
+  /* margin-left: 210px; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  gap: 100px;
+}
+.noti>.bell{
+  margin-left: 200px;
+}
+.noti>.setting{
+  margin-right: 300px;
+}
+.noti>.bell,.heart,.time,.setting{
+  margin-top: 80px;
+}
+.bell>h5,.heart>h5,.time>h5,.setting>h5{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.bell>p,.heart>p,.time>p,.setting>p{
+  margin-top: 20px;
+}
+.bell>button,.heart>button,.time>button,.setting>button{
+  margin-top: 20px;
+  border: 40px ;
+  border-radius: 50px;
+  background-color: crimson;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+.bell>button:hover,.heart>button:hover,.time>button:hover,.setting>button:hover{
+  color: rgb(16, 136, 210);
+}
+.bell>.bell1>img,.heart>.heart1>img,.time>.time1>img,.setting>.setting1>img{
+  border: 2px white solid;
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: 30px;
+  background-color: magenta;
+}
+/* OUR GALLERY  */
+.images{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.images>.text{
+  background-color: aqua;
+  justify-content: center;
+}
+.images>.text>.item>li:hover{
+  color: red;
+}
+.images>.image2{
+  margin-right: 100px;
+}
+.text>h1{
+  margin-top: 150px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.text>p{
+ margin: 40px;
+}
+.text>ul>li{
+  margin: 10px;
+ margin-left: 50px;
+}
+.banner2>.button{
+  align-items: center;
+}
+/* BANNER  */
+.commonBanner1{
+  height: 400px;
+  text-align: center;
+  background-color: goldenrod;
+  padding: 20px;
+  text-shadow: 4px,4px,3px #000;
+}
+.commonBanner1>.area{
+  background-color: white;
+  margin: 50px;
+  padding: 30px;
+  line-height: 2;
+  display: inline-block;
+  border-radius: 10px;
+  
+}
+/* .banner2>div>h1:hover{
+  background-color: blue;
+ } */
+ .banner2>h4{
+  margin-bottom: 20px;
+  color: #fff;
+ }
+ .banner2>h5{
+  margin-bottom: 50px;
+  color: #fff;
+ }
+
+ /* BLOG  */
+ .font{
+  height: 680px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* gap: 50px; */
+}
+.font>.lenth{
+  background-color:black;
+  justify-content: center;
+  width: 45%;
+}
+.lenth>h2{
+  color: #fff;
+  /* margin: 150px; */
+  margin-left: 25%;
+  margin-top: 50px;
+  justify-content:flex-start;
+}
+.lenth>p{
+  color: #fff;
+  margin: 50px;
+  margin-left: 25%;
+  /* padding: 105px; */
+  margin-top: 50px;
+  justify-content:flex-start;
+}
+.font>.lenth>input{
+  margin: 20px;
+  padding: 15px;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 25%;
+}
+.font>.lenth>input:hover{
+  background-color: yellow;
+}
+
+.commonBanner3{
+  background-image: url(../images/pexels-pixabay-366283.jpg);
+   height: 680px;
+   width: 990px;
+   color: black;
+   justify-content:center ;
+}
+.commonBanner3>.vv{
+  /* margin-top: 300px; */
+  justify-content: center;
+  padding: 20px;
+  margin: 35% 50px 15px 50px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+}
+.commonBanner3>.vv>h3{
+  margin-top: 40px;
+}
+.commonBanner3>.vv>h4{
+  color: rgb(136, 6, 222);
+  margin: 25px;
+}
+
+.commonBanner4{
+  height: 400px;
+  text-align: center;
+  background-color: teal;
+  padding: 20px;
+}
+.banner5>.kk>h1{
+   margin: 50px ;
+}
+.banner5>.kk>.hr1{
+  margin: 0px 550px 0px 550px;
+}
+.banner5>.kk>p{
+  margin: 30px 500px 30px 500px;
+}
+.banner5>.kk>button{
+  padding: 20px;
+  border-radius: 50px;
+  background-color: crimson;
+  color: #fff;
+}
+.banner5>.kk>button:hover{
+  background-color: blueviolet;
+}
+.commonBanner6{
+  background-color: gray;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+}
+.last{
+  justify-content: center;
+}
+.last>.tinker,.last>.location,.last>.more,.last>.social{
+  margin: 90px 10px 20px 100px;
+  color: #fff;
+}
+.last>.tinker>h3::first-letter{
+  color: orange;
+  font-size: larger;
+}
+.last>.tinker>h6,.last>.location>h6,.last>.more>h6{
+  margin: 15px 0px 15px 0px;
+}
+.last>.social>.awesome{
+  margin-top: 20px;
+  padding: 20px;
+}
+.last>.more h6:hover{
+  scale: 2;
+  color: crimson;
+}
+/* .last>.social>.awesome>b>[class*="fa"]:hover{color:red;size: 50px;font-size: 4em; gap: 20px;} */
+.last>.social>.awesome>b>.fa-twitter:hover{
+  color:skyblue;font-size: 48px; gap: 20px;
+}
+.last>.social>.awesome>b>.fa-facebook:hover{
+  color:blue;font-size: 48px; gap: 20px;
+}.last>.social>.awesome>b>.fa-whatsapp:hover{
+  color:green;size: 50px;font-size: 48px; gap: 20px;
+}.last>.social>.awesome>b>.fa-instagram:hover{
+  color:magenta;font-size: 48px; gap: 20px;
+}
+.last>.social>.awesome>b>.fa-google:hover{
+  font-size: 48px; gap: 20px;
+  background: linear-gradient(red,gold,blue);
+  color:darkorchid;
+}
+
+.last>.location>.location1{
+  margin-top: 10px;
+  text-align: justify;
+   line-height: 1;
+   column-count: 2; 
+   column-gap: 50px;
+   column-rule: 2px solid palevioletred;
+}
+.last>.location>.location1>h6{
+  padding: 10px;
+}
+

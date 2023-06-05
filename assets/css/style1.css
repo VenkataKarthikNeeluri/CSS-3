@@ -1,0 +1,101 @@
+.card{
+    width: 400px;   
+    height: 700px;
+    background-color:aquamarine;
+    border-radius: 30px;
+    margin: 50px 40%  ;
+}
+.card>.vk{
+    width: 360px;
+    height: 300px;
+    margin: -40px 20px 0px 20px ;
+    border-radius: 30px;
+    position: absolute;
+    background-color: gray;
+}
+.card>.vk>.card1>.fa-user{
+    margin: 20px 20px 0px 125px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 80px;
+    border: 2px solid blueviolet;
+}
+.card>.vk>.head{
+    text-align: center;
+    color: #fff;
+}
+.card>.icon{
+    height: 100px;
+    margin: 0px 20px 0px 20px;
+    width: 360px;
+    margin-bottom: 350px;
+    margin-top: 37%;
+    background-color: gray;
+    position: absolute;
+    border-radius: 20px;
+}    
+     /* ICONS  */
+.card>.vk>.icon{
+    padding: 12px;
+    /* margin: 100px; */
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: center;
+    margin-top: 90px;
+    background-color: gray;
+    border-radius: 30px;
+
+}
+
+.icon>b>[class*="fa"]{
+    /* transition: 1s; */
+    cursor: pointer;
+}
+.icon>b>[class*="fa"]:hover{color: blue;}
+.icon>b>.fa-facebook-f:hover{
+    color: blue;
+    font-size: 2em;
+    transition: 3s;
+}
+.icon>b>.fa-twitter:hover{
+    color: skyblue;
+    font-size: 2em;
+    transition: 3s;
+}
+.icon>b>.fa-instagram:hover{
+    color: magenta;
+    font-size: 2em;
+    transition: 3s;
+}
+.icon>b>.fa-magnifying-glass-plus:hover{
+    color: white;
+    font-size: 2em;
+    transition: 3s;
+
+}
+
+
+
+ 
+.card>.vk>.kv{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 10px;
+}
+.card>.vk>.kv>.span1{
+    margin-top: 0px;
+}
+.card>.vk>.span1{
+    margin-top: -85px;
+    margin-left: 28%;
+}
+.card>.vk>.span3{
+    margin-top: -85px;
+    margin-left: 28%;
+}
+
+

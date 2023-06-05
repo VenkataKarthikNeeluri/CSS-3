@@ -1,0 +1,34 @@
+@media(max-width:768px){
+    header{
+        text-align: center;
+    }
+    .container{
+        flex-flow: column wrap;
+    }
+    header>nav>ul>li{
+        display: block;
+    }
+    .mx-100{
+        margin: auto 100px;
+      }
+      .my-25{
+        margin: auto 25px;
+      }
+      .my-50{
+        margin: auto 50px;
+      }
+      .my-33{
+        margin: 33px auto;
+      }
+}
+
+/*  TABLET VERSION*/
+@media(min-width:769px) and (max-width:1200px){
+    header>nav{
+        text-align: center;
+        padding: 20px;
+    }
+    header>nav>ul{
+        float: none;
+    }
+}

@@ -1,0 +1,18 @@
+@media(max-width:768px){
+.card>.vk{
+    background-color: brown;
+}
+.card>.vk>.icon{
+    background-color: brown;
+}
+}
+
+/* TABLET VERSION */
+@media(min-width:769px) and (max-width:1200px){
+    .card>.vk{
+        background-color: rgb(50, 8, 237);
+    }
+    .card>.vk>.icon{
+        background-color: blue;
+    }
+}  
